@@ -82,5 +82,6 @@ img {
 @media screen and (max-width: 615px) {
     #nav {
         grid-column: 3 / 4;
+        padding-left: 6em;
     }
 }
