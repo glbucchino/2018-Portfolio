@@ -26,15 +26,15 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #projects-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media only screen and (max-width: 400px) {
-    #projects-container {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 615px) {
+    #nav {
+        grid-column: 3 / 4;
     }
 }
 
