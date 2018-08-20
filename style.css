@@ -3,7 +3,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 25%); 
     grid-template-rows: auto;
-    margin: 3em auto;
+    margin: 2em auto;
     padding: 3em;
 }
 
