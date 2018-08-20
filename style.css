@@ -26,18 +26,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media screen and (max-width: 800px) {
-    #projects-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (max-width: 615px) {
-    #nav {
-        grid-column: 3 / 4;
-    }
-}
-
 .container {
     width: 100%;
     margin: 2em auto;
@@ -83,4 +71,16 @@ img {
     align-content: center;
     width: 100%;
     padding: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    #projects-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    #nav {
+        grid-column: 3 / 4;
+    }
 }
