@@ -5,7 +5,7 @@ body {
     grid-template-columns: repeat(4, 25%); 
     grid-template-rows: repeat(4, auto);
     margin: 2em auto;
-    padding: 1em;
+    padding: 2em;
 }
 
 #pagetitle {
