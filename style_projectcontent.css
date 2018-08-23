@@ -13,12 +13,17 @@ img {
 #project-buttons {
     margin: 5em auto 2em auto;
     text-align: center;
+    color: #878787;
+}
+
+.project-buttons {
+    color: #878787;
 }
 
 h3 {
     font-size: 2em;
     font-weight: 700;
-    margin: 4em 0.5em 0.5em 1.2em;
+    margin: 3em 0.5em 0.5em 1.2em;
     line-height: 0.6em;
 }
 
@@ -38,4 +43,19 @@ h5 {
     font-size: 1.5em;
     text-align: center;
     color: #000000;
+}
+
+a.visit {
+    font-size: 1em;
+    color: #bfaff8;
+}
+
+a.visit:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 615px) {
+    h3 {
+      line-height: 1em;  
+    }
 }
