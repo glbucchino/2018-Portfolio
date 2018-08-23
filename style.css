@@ -74,11 +74,12 @@ a {
 
 a:active {
     color: #bfaff8;
-    border-bottom: 2px solid #bfaff8;
+    border-bottom: 1.5px solid #bfaff8;
 }
 
 a:hover {
     color: #bfaff8;
+    border-bottom: 1.5px solid #bfaff8;
 }
 
 a:checked {
@@ -87,7 +88,6 @@ a:checked {
 
 a.active {
     color: #bfaff8;
-    border-bottom: 2px solid #bfaff8;
 }
 
 /* About */
