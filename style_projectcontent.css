@@ -1,5 +1,5 @@
 img {
-    margin: 0.5em;
+    margin: 0.8em;
 }
 
 .doubleimage {
@@ -58,5 +58,9 @@ a.visit:hover {
 @media screen and (max-width: 615px) {
     h3 {
       line-height: 1em;  
+    }
+    
+    h4 {
+        line-height: 0.5em;
     }
 }

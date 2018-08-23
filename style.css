@@ -153,7 +153,8 @@ h3 {
 
 #project-content {
     grid-row: 2;
-    grid-column: 2 / 4;
+    grid-column: 1 / 5;
+    margin: 0 20em;
 }
 
 .doubleimage {
@@ -183,7 +184,13 @@ h3 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1195px) {
+        #project-content {
+        grid-column: 1 / 5;
+        margin:0 12em;
+    }
+
+@media screen and (max-width: 1000px) {
     #projects-container {
         grid-template-columns: 1fr;
     }
