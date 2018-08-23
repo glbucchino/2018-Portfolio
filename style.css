@@ -190,14 +190,21 @@ h3 {
         margin:0 12em;
     }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1020px) {
     #projects-container {
         grid-template-columns: 1fr;
     }
     
     #project-content {
         grid-column: 1 / 5;
-        margin:0 4em;
+        margin:0 8em;
+    }
+}
+    
+@media screen and (max-width: 800px) {
+    #project-content {
+    grid-column: 1 / 5;
+    margin: 0 5em;
     }
 }
 
@@ -208,10 +215,16 @@ h3 {
     
     #project-content {
         grid-column: 1 / 5;
-        margin: 0;
+        margin: 0 1em;
     }
     
     h3 {
       line-height: 4em;  
     }
+}
+    
+@media screen and (max-width: 450px) {
+    #project-content {
+        margin: 0;
+    }  
 }
