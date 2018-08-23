@@ -186,7 +186,7 @@ h3 {
 }
 
 @media screen and (max-width: 1195px) {
-        #project-content {
+    #project-content {
         grid-column: 1 / 5;
         margin:0 12em;
     }
@@ -202,7 +202,7 @@ h3 {
     }
 }
     
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     #project-content {
         grid-column: 1 / 5;
         margin: 0 5em;
@@ -210,6 +210,10 @@ h3 {
     
     #pagetitle {
         line-height: 2.3em;
+    }
+    
+    #about {
+        margin: 0 3em;
     }
 }
 
@@ -225,6 +229,10 @@ h3 {
     
     h3 {
       line-height: 4em;  
+    }
+    
+    #about {
+        margin: 0;
     }
 }
     
@@ -244,5 +252,10 @@ h3 {
     img {
         width: 90%;
         margin: 0 auto;
+    }
+    
+    #about {
+        margin: 0;
+        padding: 1em;
     }
 }
