@@ -133,8 +133,9 @@ img {
     margin: 0.5em;
 }
 
-.social:hover {
+.socials:hover {
     opacity: 0.5;
+    border-bottom: 0px;
 }
 
 a.socials:active {
@@ -253,5 +254,10 @@ h3 {
     #about {
         margin: 0;
         padding: 1em;
+    }
+    
+    #biophoto {
+        width: 100%;
+        margin: 3em 1em;
     }
 }
