@@ -74,12 +74,10 @@ a {
 
 a:hover {
     color: #bfaff8;
-    border-bottom: 1.5px solid #bfaff8;
 }
 
 a:checked {
     color: #000000;
-    border-bottom: 0px;
 }
 
 a.active {
