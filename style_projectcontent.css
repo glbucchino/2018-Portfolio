@@ -24,12 +24,12 @@ h3 {
     font-family: 'Roboto Mono', monospace;
     font-size: 2em;
     font-weight: 700;
-    margin: 3em 0.5em 0.5em 1.2em;
+    margin: 3em 0.5em 0.5em 0.5em;
     line-height: 0.6em;
 }
 
 h4 {
-    margin: 0.5em 2.5em;
+    margin: 0.5em 1em;
     font-weight: 100;
     color: #a1a1a1;
 }
@@ -62,5 +62,9 @@ a.visit:hover {
     
     h4 {
         line-height: 0.5em;
+    }
+    
+    .descriptions {
+        margin: 2em 1em; 
     }
 }
