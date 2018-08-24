@@ -51,8 +51,8 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 0.9em;
-    line-height: 0.7em;
+    font-size: 1em;
+    line-height: 1em;
     color: #a1a1a1;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 .bio {
-    line-height: 1.5em;
+    line-height: 1.6em;
     text-align: left;
     color: #000000;
     margin-right: 5em;
