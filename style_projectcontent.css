@@ -58,20 +58,6 @@ a.visit:hover {
     text-decoration: underline;
 }
 
-@media screen and (min-width: 1300px){
-    body {
-        padding-left: 6em;
-        padding-right: 6em;
-    }
-}
-
-@media screen and (min-width: 1600px){
-    body {
-        padding-left: 8em;
-        padding-right: 8em;
-    }
-}
-
 @media screen and (max-width: 615px) {
     h3 {
       line-height: 1em;  
