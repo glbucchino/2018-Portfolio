@@ -1,6 +1,6 @@
 /* Basic CSS */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 25%); 
     grid-template-rows: repeat(4, auto);
@@ -13,6 +13,7 @@ body {
     grid-row: 1 / 2;
     padding-left: 1em;
     margin-top: 0.4em;
+    font-size: 1.15em;
 }
 
 #nav {
@@ -36,23 +37,25 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Crimson Text', serif;
     padding: 0 2em 0 0;
     margin: 0;
     float: left;
 }
 
 h2 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Crimson Text', serif;
     text-align: center;
-    line-height: .4em;
+    line-height: 0.2em;
     padding-top: .5em;
+    font-size: 1.6em;
+    
 }
 
 p {
     text-align: center;
     font-size: 1em;
-    line-height: 1em;
+    line-height: 0.5em;
     color: #a1a1a1;
 }
 
@@ -73,7 +76,7 @@ a {
 }
 
 a:hover {
-    color: #bfaff8;
+    color: #f5d18f;
 }
 
 a:checked {
@@ -81,7 +84,7 @@ a:checked {
 }
 
 a.active {
-    color: #bfaff8;
+    color: #f5d18f;
 }
 
 /* About */
@@ -126,9 +129,9 @@ img {
 }
 
 .social {
-    height: 2em;
-    width: 2em;
-    margin: 0.5em;
+    height: 3em;
+    width: 3em;
+    margin-right: 0.8em;
 }
 
 .socials:hover {
