@@ -76,4 +76,10 @@ a.visit:hover {
     .descriptions {
         margin: 2em 1em; 
     }
+    
+    p {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+}
 }
